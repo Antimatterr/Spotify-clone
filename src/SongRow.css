@@ -1,0 +1,32 @@
+.songrow{
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.songrow:hover{
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.songrow_info{
+  margin-left: 20px;
+}
+
+.songrow_info >h1{
+  font-size: 16px;
+}
+
+.songrow_info > p{
+  font-size: 14px;
+  margin-top: 3px;
+  color: gray;
+}
+
+.songrow_album{
+  height: 40px;
+  width: 40px;
+}

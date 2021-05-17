@@ -1,0 +1,61 @@
+.body {
+  flex: 0.8;
+  height: 100%;
+  overflow-y: overlay;
+  color: white;
+  padding: 30px;
+  background-color: rgb(91, 87, 115);
+  background: linear-gradient(rgb(91, 87, 115), rgba(0,0,0,1))
+}
+
+
+.body::-webkit-scrollbar{
+  display: none;
+}
+
+.weekly_discover{
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0,0,0,0.5);
+}
+
+.body_info{
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body_infotext{
+  flex: 1;
+  padding: 10px;
+}
+
+.body_infotext > h2{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.body_infotext > p{
+  font-size: 14px;
+}
+
+
+.bod_shuffle {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bod_shuffle:hover{
+  transition: 100ms transform ease-in;
+  transform: scale(1.1);
+}
+
+.body_icons{
+  display: flex;
+  align-items: center;
+}
+
+.body_icons > .MuiSvgIcon-root{
+  margin-right: 20px;
+}
